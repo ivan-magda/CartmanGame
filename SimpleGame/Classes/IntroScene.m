@@ -9,7 +9,7 @@
 
 // Import the interfaces
 #import "IntroScene.h"
-#import "HelloWorldScene.h"
+#import "CartmanShootScene.h"
 
 // -----------------------------------------------------------------------
 #pragma mark - IntroScene
@@ -34,25 +34,27 @@
     self = [super init];
     if (!self) return(nil);
     
-    // Create a colored background (Dark Grey)
-    CCNodeColor *background = [CCNodeColor nodeWithColor:[CCColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.0f]];
-    [self addChild:background];
+    [[OALSimpleAudio sharedInstance] playBg:@"south-park-main-theme.mp3" loop:YES];
     
-    // Hello world
-    CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Chalkduster" fontSize:36.0f];
-    label.positionType = CCPositionTypeNormalized;
-    label.color = [CCColor redColor];
-    label.position = ccp(0.5f, 0.5f); // Middle of screen
-    [self addChild:label];
+    CCSprite *backgroundImage = [CCSprite spriteWithImageNamed:@"menu.jpg"];
+    CGRect textureRect = [[UIScreen mainScreen]bounds];
+    textureRect.origin.x = -50;
+    textureRect.origin.y = 25;
+    [backgroundImage setTextureRect:textureRect];
+    backgroundImage.anchorPoint = CGPointZero;
+    backgroundImage.position = CGPointZero;
+    [self addChild:backgroundImage];
     
     // Helloworld scene button
-    CCButton *helloWorldButton = [CCButton buttonWithTitle:@"[ Start ]" fontName:@"Verdana-Bold" fontSize:18.0f];
+    CCButton *helloWorldButton = [CCButton buttonWithTitle:@"[ Start Game ]" fontName:@"Chalkduster" fontSize:28.0f];
+    helloWorldButton.color = [CCColor blackColor];
+    [helloWorldButton setLabelColor:[CCColor lightGrayColor]
+                           forState:CCControlStateHighlighted];
     helloWorldButton.positionType = CCPositionTypeNormalized;
-    helloWorldButton.position = ccp(0.5f, 0.35f);
+    helloWorldButton.position = ccp(0.5f, 0.10f);
     [helloWorldButton setTarget:self selector:@selector(onSpinningClicked:)];
     [self addChild:helloWorldButton];
 
-    // done
 	return self;
 }
 
@@ -63,7 +65,7 @@
 - (void)onSpinningClicked:(id)sender
 {
     // start spinning scene with transition
-    [[CCDirector sharedDirector] replaceScene:[HelloWorldScene scene]
+    [[CCDirector sharedDirector] replaceScene:[CartmanShootScene scene]
                                withTransition:[CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:1.0f]];
 }
 

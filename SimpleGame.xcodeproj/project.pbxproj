@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50073FDD19D0245B00A4231B /* cartman-player.png in Resources */ = {isa = PBXBuildFile; fileRef = 50073FDC19D0245B00A4231B /* cartman-player.png */; };
+		5025605B19D02A9500D13242 /* Satan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5025605A19D02A9500D13242 /* Satan.png */; };
+		5025605D19D02FD800D13242 /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5025605C19D02FD800D13242 /* menu.jpg */; };
+		5025605F19D0341200D13242 /* south-park-main-theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5025605E19D0341200D13242 /* south-park-main-theme.mp3 */; };
+		5025606119D0357500D13242 /* Wild-Wild-West.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5025606019D0357500D13242 /* Wild-Wild-West.mp3 */; };
+		5025606619D03AE400D13242 /* southParkTown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5025606519D03AE400D13242 /* southParkTown.jpg */; };
+		5025606819D03DAA00D13242 /* Dead_Cartman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5025606719D03DAA00D13242 /* Dead_Cartman.png */; };
+		5025606A19D0417000D13242 /* UNCLE_FUCKER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5025606919D0417000D13242 /* UNCLE_FUCKER.mp3 */; };
+		509FE38B19D0270E00C581E6 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 509FE38A19D0270E00C581E6 /* bullet.png */; };
 		50B09D7919CE8DFE00D76600 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B09D7819CE8DFE00D76600 /* QuartzCore.framework */; };
 		50B09D7B19CE8DFE00D76600 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B09D7A19CE8DFE00D76600 /* OpenGLES.framework */; };
 		50B09D7D19CE8DFE00D76600 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B09D7C19CE8DFE00D76600 /* OpenAL.framework */; };
@@ -200,7 +209,7 @@
 		50B09FEC19CE8E0000D76600 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 50B09FEB19CE8E0000D76600 /* LICENSE_Chipmunk.txt */; };
 		50B09FF019CE8E0000D76600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B09FEF19CE8E0000D76600 /* main.m */; };
 		50B09FF419CE8E0000D76600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B09FF319CE8E0000D76600 /* AppDelegate.m */; };
-		50B09FF719CE8E0000D76600 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B09FF619CE8E0000D76600 /* HelloWorldScene.m */; };
+		50B09FF719CE8E0000D76600 /* CartmanShootScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B09FF619CE8E0000D76600 /* CartmanShootScene.m */; };
 		50B09FFA19CE8E0000D76600 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B09FF919CE8E0000D76600 /* IntroScene.m */; };
 /* End PBXBuildFile section */
 
@@ -215,6 +224,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50073FDC19D0245B00A4231B /* cartman-player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cartman-player.png"; sourceTree = "<group>"; };
+		5025605A19D02A9500D13242 /* Satan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Satan.png; sourceTree = "<group>"; };
+		5025605C19D02FD800D13242 /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = menu.jpg; sourceTree = "<group>"; };
+		5025605E19D0341200D13242 /* south-park-main-theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "south-park-main-theme.mp3"; sourceTree = "<group>"; };
+		5025606019D0357500D13242 /* Wild-Wild-West.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Wild-Wild-West.mp3"; sourceTree = "<group>"; };
+		5025606419D03A5100D13242 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		5025606519D03AE400D13242 /* southParkTown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = southParkTown.jpg; sourceTree = "<group>"; };
+		5025606719D03DAA00D13242 /* Dead_Cartman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dead_Cartman.png; sourceTree = "<group>"; };
+		5025606919D0417000D13242 /* UNCLE_FUCKER.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = UNCLE_FUCKER.mp3; sourceTree = "<group>"; };
+		509FE38A19D0270E00C581E6 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		50B09D7519CE8DFE00D76600 /* SimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B09D7819CE8DFE00D76600 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		50B09D7A19CE8DFE00D76600 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -609,8 +628,8 @@
 		50B09FEF19CE8E0000D76600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		50B09FF219CE8E0000D76600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		50B09FF319CE8E0000D76600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		50B09FF519CE8E0000D76600 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		50B09FF619CE8E0000D76600 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
+		50B09FF519CE8E0000D76600 /* CartmanShootScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CartmanShootScene.h; path = Classes/CartmanShootScene.h; sourceTree = "<group>"; };
+		50B09FF619CE8E0000D76600 /* CartmanShootScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CartmanShootScene.m; path = Classes/CartmanShootScene.m; sourceTree = "<group>"; };
 		50B09FF819CE8E0000D76600 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		50B09FF919CE8E0000D76600 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -675,6 +694,7 @@
 		50B09D9219CE8DFE00D76600 /* SimpleGame */ = {
 			isa = PBXGroup;
 			children = (
+				50B0A00319CE8EDC00D76600 /* ResourcePack */,
 				50B09D9319CE8DFE00D76600 /* Resources */,
 				50B09DBC19CE8DFE00D76600 /* Libraries */,
 				50B09FF119CE8E0000D76600 /* Classes */,
@@ -1425,12 +1445,45 @@
 			children = (
 				50B09FF219CE8E0000D76600 /* AppDelegate.h */,
 				50B09FF319CE8E0000D76600 /* AppDelegate.m */,
-				50B09FF519CE8E0000D76600 /* HelloWorldScene.h */,
-				50B09FF619CE8E0000D76600 /* HelloWorldScene.m */,
+				50B09FF519CE8E0000D76600 /* CartmanShootScene.h */,
+				50B09FF619CE8E0000D76600 /* CartmanShootScene.m */,
 				50B09FF819CE8E0000D76600 /* IntroScene.h */,
 				50B09FF919CE8E0000D76600 /* IntroScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		50B0A00319CE8EDC00D76600 /* ResourcePack */ = {
+			isa = PBXGroup;
+			children = (
+				50B0A00419CE8EDC00D76600 /* Art */,
+				50B0A00B19CE8EDC00D76600 /* Sounds */,
+			);
+			path = ResourcePack;
+			sourceTree = "<group>";
+		};
+		50B0A00419CE8EDC00D76600 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				509FE38A19D0270E00C581E6 /* bullet.png */,
+				50073FDC19D0245B00A4231B /* cartman-player.png */,
+				5025606519D03AE400D13242 /* southParkTown.jpg */,
+				5025606719D03DAA00D13242 /* Dead_Cartman.png */,
+				5025605C19D02FD800D13242 /* menu.jpg */,
+				5025605A19D02A9500D13242 /* Satan.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		50B0A00B19CE8EDC00D76600 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5025605E19D0341200D13242 /* south-park-main-theme.mp3 */,
+				5025606419D03A5100D13242 /* pew-pew-lei.caf */,
+				5025606019D0357500D13242 /* Wild-Wild-West.mp3 */,
+				5025606919D0417000D13242 /* UNCLE_FUCKER.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1505,24 +1558,33 @@
 				50B09DAA19CE8DFE00D76600 /* Icon-120.png in Resources */,
 				50B09DA019CE8DFE00D76600 /* Icon@2x.png in Resources */,
 				50B09DB219CE8DFE00D76600 /* Icon-Small@2x.png in Resources */,
+				5025605D19D02FD800D13242 /* menu.jpg in Resources */,
+				509FE38B19D0270E00C581E6 /* bullet.png in Resources */,
+				5025605F19D0341200D13242 /* south-park-main-theme.mp3 in Resources */,
 				50B09DA419CE8DFE00D76600 /* Icon-72@2x.png in Resources */,
+				5025605B19D02A9500D13242 /* Satan.png in Resources */,
 				50B09D9519CE8DFE00D76600 /* Default.png in Resources */,
 				50B09D9E19CE8DFE00D76600 /* Icon.png in Resources */,
+				50073FDD19D0245B00A4231B /* cartman-player.png in Resources */,
 				50B09DAC19CE8DFE00D76600 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				50B09D9B19CE8DFE00D76600 /* Default-Landscape~ipad.png in Resources */,
 				50B09DB019CE8DFE00D76600 /* Icon-Small.png in Resources */,
 				50B09DAE19CE8DFE00D76600 /* Icon-Small-50.png in Resources */,
 				50B09FEC19CE8E0000D76600 /* LICENSE_Chipmunk.txt in Resources */,
 				50B09DA219CE8DFE00D76600 /* Icon-72.png in Resources */,
+				5025606619D03AE400D13242 /* southParkTown.jpg in Resources */,
 				50B09F7E19CE8E0000D76600 /* LICENSE_CCBReader.txt in Resources */,
 				50B09EEE19CE8DFF00D76600 /* LICENSE_cocos2d.txt in Resources */,
 				50B09D9919CE8DFE00D76600 /* Default-568h@2x.png in Resources */,
+				5025606119D0357500D13242 /* Wild-Wild-West.mp3 in Resources */,
 				50B09DB919CE8DFE00D76600 /* iTunesArtwork in Resources */,
 				50B09DB419CE8DFE00D76600 /* Icon-Spotlight-iOS7.png in Resources */,
 				50B09DA819CE8DFE00D76600 /* Icon-76@2x.png in Resources */,
+				5025606819D03DAA00D13242 /* Dead_Cartman.png in Resources */,
 				50B09DB619CE8DFE00D76600 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				50B09DA619CE8DFE00D76600 /* Icon-76.png in Resources */,
 				50B09DBB19CE8DFE00D76600 /* iTunesArtwork@2x in Resources */,
+				5025606A19D0417000D13242 /* UNCLE_FUCKER.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1555,7 +1617,7 @@
 				50B09DCD19CE8DFE00D76600 /* CCEffect.m in Sources */,
 				50B09F6B19CE8DFF00D76600 /* CCBAnimationManager.m in Sources */,
 				50B09ED919CE8DFF00D76600 /* CCVertex.m in Sources */,
-				50B09FF719CE8E0000D76600 /* HelloWorldScene.m in Sources */,
+				50B09FF719CE8E0000D76600 /* CartmanShootScene.m in Sources */,
 				50B09E0D19CE8DFE00D76600 /* CCAnimationCache.m in Sources */,
 				50B09EC719CE8DFF00D76600 /* base64.c in Sources */,
 				50B09E5019CE8DFE00D76600 /* CCParticleSystemBase.m in Sources */,
@@ -1859,6 +1921,7 @@
 				50B09FFF19CE8E0000D76600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50B0A00019CE8E0000D76600 /* Build configuration list for PBXNativeTarget "SimpleGame" */ = {
 			isa = XCConfigurationList;
@@ -1867,6 +1930,7 @@
 				50B0A00219CE8E0000D76600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

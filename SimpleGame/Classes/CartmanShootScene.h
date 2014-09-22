@@ -16,11 +16,11 @@
 /**
  *  The main scene
  */
-@interface HelloWorldScene : CCScene
+@interface CartmanShootScene : CCScene
 
 // -----------------------------------------------------------------------
 
-+ (HelloWorldScene *)scene;
++ (CartmanShootScene *)scene;
 - (id)init;
 
 // -----------------------------------------------------------------------
